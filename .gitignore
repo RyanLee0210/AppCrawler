@@ -6,3 +6,6 @@ conf.json
 xueqiu.json
 *.apk
 *.swp
+*.iml
+allure-*
+/.gradle

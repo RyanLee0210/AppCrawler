@@ -1,8 +1,55 @@
-# 2.2.0 [TODO]
+# 3.0.0 [TODO]
 - 支持从历史数据中寻找最优点击路径
-- 支持web
 - 支持游戏app遍历
+- 支持wetest和mqc
+- 改进appium
 - 使用节点树模型
+- 优化自动重启逻辑
+- 简化配置文件
+- 完善断言
+- 支持性能
+- 支持弱网
+- 支持接口数据入报告
+
+# 2.7.0
+- 代码重构
+- 性能提升
+
+仍然不满意，但是应很多公司的使用要求，先提前放出beta版本
+
+
+# 2.6.0 [TODO]
+- 支持accessibility service
+- 支持rpc dubbo json-rpc
+- 支持云插件
+- 改进appium的Uiautomator2的性能与bug
+
+# 2.5
+- 支持android native adb遍历 [done]
+- 简化遍历逻辑
+- 支持根据属性排序遍历
+
+# 2.4
+- 支持java10 [done]
+- 支持selenium [done]
+
+# 2.3.1
+- 合并了androidCapability iosCapability到capability [done]
+- 支持定位加速[完成]
+- 更新到java-client 6.0，坑好多[Done]
+
+# 2.2.1
+- 合并triggerAction firstList lastList为orderList
+- 去掉autoCrawl
+
+# 2.2.0
+- 修复自动重启执行afterUrlFinish的bug，增强afterUrlFinish支持条件，支持given when
+- 增强assert配置的模型，与testcase保持一致，只设置given then即可
+- 修复iOS backButton的bug
+- 减少getCurrentActivy api调用，会导致appium不稳定
+- 修复swipe，这个api仍然不稳定，moveTo是终点位置
+- 增加restartOnError命令
+
 
 # 2.1.2
 - 跟进支持appium 1.7[完成]
